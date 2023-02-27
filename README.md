@@ -10,6 +10,6 @@ setWireguard.Conf.shを踏み台サーバに設置
 sudo chmod 777 setWireguard.Conf.sh
 
 ### 実行結果
- ./setWireguardConf.sh " - 111.222.333.445/22"　　
+ ./setWireguardConf.sh "111.222.333.445/22"　　
 99-remote-server.yamlのファイルを書き換えました。　　
                                                                        
