@@ -1,7 +1,7 @@
 # Wireguard 設定時　99-remote-server.yaml設定
 
 ### 使用方法
-./setWireguard.Conf.sh " - 192.168.1.100/24"
+./setWireguardConf.sh [new_address]
 
 ### 設定
 setWireguard.Conf.shを踏み台サーバに設置
@@ -18,8 +18,8 @@ network:
       dhcp4: true
       optional: true
     enx04ab18f8625c:
-      addresses:  - 111.222.333.445/22
-    #gateway4: 10.151.31.1 
+      addresses:  - [new_address]
+    #gateway4: 10.151.31.1
     nameservers:
         addresses:
         - 8.8.8.8
