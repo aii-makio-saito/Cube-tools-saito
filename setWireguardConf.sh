@@ -7,7 +7,7 @@ if [ $# -ne 1 ]; then
 fi
 
 # 対象ファイルのパス
-file_path="/Users/saitoumakio/Documents/GitHub/Cube-tools-saito/99-remote-server.yaml"
+file_path="/etc/netplan/99-remote-server.yaml"
 
 # gateway4コメント化の制御
 if grep -q "^[[:blank:]]*#*gateway4:" "$file_path"; then
