@@ -1,0 +1,17 @@
+network:
+  ethernets:
+    eno1:
+      dhcp4: true
+      optional: true
+    enx04ab18f8625c:
+      addresses:
+        - 192.168.1.333/23
+      #gateway4: 10.151.31.1 
+      nameservers:
+        addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+        search: []
+  renderer: NetworkManager
+  version: 2
+
